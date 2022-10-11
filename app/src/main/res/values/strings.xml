@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Coffee Roasting Calculator</string>
+    <string name="enter_minute">Enter Minute</string>
+    <string name="enter_second">Enter Second</string>
+    <string name="development_time_ratio">Development Time Ratio</string>
+    <string name="enter_ratio">Enter ratio</string>
+    <string name="total_roast_time">Total Roast Time</string>
+    <string name="percent">%</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="coffee_roasting_calculator">Coffee Roasting Calculator</string>
+    <string name="enter">Enter</string>
+    <string name="todo">TODO</string>
+    <string name="result">Result</string>
+</resources>

@@ -40,8 +40,6 @@ class MainActivity : AppCompatActivity() {
                     //val roundedNumber = decimalTotalRoastTime.toBigDecimal().setScale(1, RoundingMode.UP).toDouble()
                     txtResultTotalMinute.text = intTotalRoastTime.toString()
                     txtResultTotalSecond.text = decimalTotalRoastTime.toString()
-                    // This is a comment test
-                    // This ia another comment
                 }
 
             }

@@ -1,4 +1,4 @@
-package com.gbtminhtri.videoapp
+package com.gbtminhtri.roastcoffeecalculator
 
 import org.junit.Test
 

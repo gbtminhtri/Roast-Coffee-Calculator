@@ -1,16 +1,11 @@
-package com.gbtminhtri.videoapp
+package com.gbtminhtri.roastcoffeecalculator
 
-import android.annotation.SuppressLint
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.DisplayMetrics
-import android.util.Log
 import android.widget.*
-import java.math.BigDecimal
+import com.gbtminhtri.videoapp.R
 import java.math.RoundingMode
-import java.security.KeyStore
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,6 +40,8 @@ class MainActivity : AppCompatActivity() {
                     //val roundedNumber = decimalTotalRoastTime.toBigDecimal().setScale(1, RoundingMode.UP).toDouble()
                     txtResultTotalMinute.text = intTotalRoastTime.toString()
                     txtResultTotalSecond.text = decimalTotalRoastTime.toString()
+                    // This is a comment test
+                    // This ia another comment
                 }
 
             }

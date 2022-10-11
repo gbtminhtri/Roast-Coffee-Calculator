@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                     val intTotalRoastTime = totalRoastTime.toInt()
                     //val decimalTotalRoastTime = ((totalRoastTime - intTotalRoastTime)*60).toInt()
                     val decimalTotalRoastTime = ((totalRoastTime - intTotalRoastTime)*60).toBigDecimal().setScale(1,RoundingMode.UP).toInt()
-                    val roundedNumber = decimalTotalRoastTime.toBigDecimal().setScale(1, RoundingMode.UP).toDouble()
+                    //val roundedNumber = decimalTotalRoastTime.toBigDecimal().setScale(1, RoundingMode.UP).toDouble()
                     txtResultTotalMinute.text = intTotalRoastTime.toString()
                     txtResultTotalSecond.text = decimalTotalRoastTime.toString()
                 }
